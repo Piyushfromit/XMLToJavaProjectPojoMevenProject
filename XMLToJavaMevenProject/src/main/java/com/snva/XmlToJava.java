@@ -26,6 +26,8 @@ public class XmlToJava {
 			System.out.println(errorInfo.getTransactionId());
 			System.out.println(errorInfo.getTraceId());
 			
+			System.out.println(errorInfo);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Error");

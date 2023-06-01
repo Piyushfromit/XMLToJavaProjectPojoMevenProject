@@ -1,22 +1,29 @@
 package com.snva;
+import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 
 
 
-@XmlRootElement
+@XmlRootElement(name = "ErrorInfo")
 public class ErrorInfo {
 	
+	@XmlElement(name="Code")
 	private String Code;
 	
+	@XmlElement(name="Service")
 	private String Service;
 
+	@XmlElement(name="Type")
 	private String Type;
 
+	@XmlElement(name="Description")
 	private String Description;
 
+	@XmlElement(name="TransactionId")
 	private String TransactionId;
 
+	@XmlElement(name="TraceId")
 	private String TraceId;
 	
 	
@@ -38,6 +45,7 @@ public class ErrorInfo {
 		Service = service;
 	}
 
+	
 	public String getType() {
 		return Type;
 	}
@@ -68,6 +76,12 @@ public class ErrorInfo {
 
 	public void setTraceId(String traceId) {
 		TraceId = traceId;
+	}
+
+	@Override
+	public String toString() {
+		return "ErrorInfo [Code=" + Code + ", Service=" + Service + ", Type=" + Type + ", Description=" + Description
+				+ ", TransactionId=" + TransactionId + ", TraceId=" + TraceId + "]";
 	}
 
 	

@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-                <errorInfo >
-                    <code>14022</code>
-                    <service>ACH</service>
+              
+              <ErrorInfo >
+                    <Code>14022</Code>
+                    <Service>ACH</Service>
                     <Type>Business</Type>
-                    <description>The current session has expired. Please restart your session</description>
-                    <transactionId>6BDCEB390A0E7DE60CCB3410FB78327C</transactionId>
-                    <traceId>SNVA_ACH_002</traceId>
-                </errorInfo>     
-           
-           <!--
+                    <Description>The current session has expired. Please restart your session</Description>
+                    <TransactionId>6BDCEB390A0E7DE60CCB3410FB78327C</TransactionId>
+                    <TraceId>SNVA_ACH_002</TraceId>
+                </ErrorInfo>  
+              
+              
+              
+             
+             
+             
+             <!--
+                 <common_v52_0:ErrorInfo xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
+                    <common_v52_0:Code>14022</common_v52_0:Code>
+                    <common_v52_0:Service>ACH</common_v52_0:Service>
+                    <common_v52_0:Type>Business</common_v52_0:Type>
+                    <common_v52_0:description>The current session has expired. Please restart your session</common_v52_0:description>
+                    <common_v52_0:TransactionId>6BDCEB390A0E7DE60CCB3410FB78327C</common_v52_0:TransactionId>
+                    <common_v52_0:TraceId>SNVA_ACH_002</common_v52_0:TraceId>
+                </common_v52_0:ErrorInfo>  
+            
+             -->
+          
+          
+           <!--   
+              
                <common_v52_0:ErrorInfo xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
                     <common_v52_0:Code>14022</common_v52_0:Code>
                     <common_v52_0:Service>ACH</common_v52_0:Service>
@@ -17,5 +37,6 @@
                     <common_v52_0:description>The current session has expired. Please restart your session</common_v52_0:description>
                     <common_v52_0:TransactionId>6BDCEB390A0E7DE60CCB3410FB78327C</common_v52_0:TransactionId>
                     <common_v52_0:TraceId>SNVA_ACH_002</common_v52_0:TraceId>
-                </common_v52_0:ErrorInfo>  -->
-           
+                </common_v52_0:ErrorInfo> 
+                
+           -->
